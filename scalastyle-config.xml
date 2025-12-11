@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scalastyle>
+    <name>Default Scalastyle Config</name>
+    <check level="error" class="org.scalastyle.scalariform.FileLengthChecker">
+        <parameters>
+            <parameter name="maxFileLength">1000</parameter>
+        </parameters>
+    </check>
+    <check level="warning" class="org.scalastyle.scalariform.ClassNamesChecker"/>
+    <check level="warning" class="org.scalastyle.scalariform.MethodNamesChecker"/>
+    <check level="warning" class="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker"/>
+    <check level="warning" class="org.scalastyle.scalariform.NoCloneChecker"/>
+    <check level="warning" class="org.scalastyle.scalariform.NoFinalizeChecker"/>
+    <check level="warning" class="org.scalastyle.scalariform.WhitespaceEndOfLineChecker"/>
+    <check level="warning" class="org.scalastyle.scalariform.IndentationChecker">
+        <parameters>
+            <parameter name="indentSpaces">4</parameter>
+        </parameters>
+    </check>
+</scalastyle>
+

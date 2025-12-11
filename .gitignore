@@ -1,0 +1,71 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Scala / SBT
+*.class
+*.log
+.cache
+.history
+.lib/
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.scala_dependencies
+.worksheet
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Spark
+spark-warehouse/
+spark-temp/
+metastore_db/
+derby.log
+
+# Data folders (optionnel - décommenter si vous ne voulez pas versionner les données)
+# data/input/
+# data/output/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+*~
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Windows
+desktop.ini
+
