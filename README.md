@@ -2,7 +2,7 @@
 
 Spark ETL application written in Scala for batch data processing.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Java 17
@@ -29,7 +29,7 @@ spark-submit --class com.company.etl.spark.Main --master local[*] target\scala-s
 mvn clean package
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── data/
@@ -47,16 +47,16 @@ mvn clean package
 └── pom.xml
 ```
 
-## 🎯 Features
+## Features
 
 The application performs the following operations:
 1. **Read** CSV files from `data/input/`
 2. **Transform** data (add timestamp, cleanup)
 3. **Write** in Parquet format to `data/output/`
 
-## 🔧 Windows Configuration
+## Windows Configuration
 
-**⚠️ First time running on Windows?**
+**First time running on Windows?**
 
 1. **Follow the installation guide**: [WINDOWS-SETUP.md](WINDOWS-SETUP.md)
 2. **Verify your configuration**:
@@ -71,7 +71,7 @@ The guide covers:
 - Installing winutils.exe
 - Troubleshooting common issues
 
-## 📝 Application Configuration
+## Application Configuration
 
 Modify `src/main/resources/application.conf`:
 ```hocon
@@ -81,13 +81,13 @@ app {
 }
 ```
 
-## 🧪 Tests
+## Tests
 
 ```powershell
 mvn test
 ```
 
-## 🧹 Maintenance
+## Maintenance
 
 ### Clean Spark Temp Files
 
@@ -99,9 +99,12 @@ During local development, Spark temp files can accumulate. Clean them periodical
 
 This frees disk space by removing leftover temporary JAR files from `%TEMP%\spark-*` directories.
 
-## 📚 Documentation
+## Documentation
 
 - **[WINDOWS-SETUP.md](WINDOWS-SETUP.md)** - Installation and configuration guide for Windows
 - **[FAQ.md](FAQ.md)** - Frequently asked questions and troubleshooting
 - **[pom.xml](pom.xml)** - Maven dependencies
 
+## Development & PR Process
+
+For a detailed description of the Pull Request and SDLC process, see [docs/PR_SDLC_PROCESS.md](docs/PR_SDLC_PROCESS.md).
